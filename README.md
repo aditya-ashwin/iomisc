@@ -1,7 +1,5 @@
 # iomisc
 
-![Screenshot](/images/Screenshot (307).png)
-
 Easily copy external ID on Civi contact page form.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
