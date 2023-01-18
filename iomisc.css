@@ -1,0 +1,40 @@
+/* Providing visual feedback when clicked */
+.crm-iomisc-button {
+    position: absolute;
+    top: 5px;
+    right: -30px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    z-index: 9999999;
+    cursor: pointer;
+    color: #999;
+}
+.crm-iomisc-button:hover {
+    color: black;
+}
+.crm-iomisc-button:active {
+    color: #13a33f;
+}
+.crm-iomisc-animated {
+    color: #13a33f;
+    animation: crm-easycopy-highlight 0.5s linear;
+    border-radius: 50%;
+}
+@keyframes crm-easycopy-highlight {
+    0%  { border-top: 1px dotted #13a33f; }
+    25% { border-right: 1px dotted #13a33f; }
+    50% { border-bottom: 1px dotted #13a33f; }
+    75% { border-left: 1px dotted #13a33f; }
+}
+
+.crm-summary-basic-block > .crm-inline-block-content > div:nth-child(4){
+    /*Leaving space so the inline edit isn't conjusted*/
+    width: 85% !important;
+    position: relative;
+}
+
+/*To make sure button isn't overlaping if there are more than one*/
+.crm-summary-basic-block > .crm-inline-block-content > div:nth-child(4) {
+    position: relative;
+}
