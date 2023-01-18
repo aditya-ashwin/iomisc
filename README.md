@@ -1,8 +1,8 @@
 # iomisc
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](/images/Screenshot (307).png)
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+Easily copy external ID on Civi contact page form.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
@@ -47,8 +47,8 @@ cv en iomisc
 
 ## Getting Started
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
+Head to civi contact page, to see iomisc ext. against external ID of the contact.
 
 ## Known Issues
+-
 
-(* FIXME *)
